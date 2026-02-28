@@ -26,6 +26,7 @@ logoutput: /var/log/sockd.log
 internal: 0.0.0.0 port = $port
 external: $iface
 method: username
+resolveprotocol: fake
 user.privileged: root
 user.notprivileged: nobody
 client pass {

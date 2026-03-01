@@ -25,7 +25,7 @@ cat > /etc/sockd.conf <<EOF
 logoutput: /var/log/sockd.log
 internal: 0.0.0.0 port = $port
 external: $iface
-method: username
+socksmethod: username
 resolveprotocol: fake
 user.privileged: root
 user.notprivileged: nobody
